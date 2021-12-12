@@ -36,8 +36,8 @@ cnt = 0
 for n in range(len(folder_names1)):
     for m in range(len(folder_names2)):
         for k in range(len(change_file_names)):
-            origin_dir = f'D:\github\ObjectDetection_Flutter\datasets/{folder_names1[n]}/{folder_names2[m]}'
-            copy_dir = f'D:\github\ObjectDetection_Flutter\datasets/{folder_names1[n]}_copy/{folder_names2[m]}'
+            origin_dir = f'C:/Users/HNU/Documents/github/ObjectDetection_Flutter/datasets/{folder_names1[n]}/{folder_names2[m]}'
+            copy_dir = f'C:/Users/HNU/Documents/github/ObjectDetection_Flutter/datasets/{folder_names1[n]}_copy/{folder_names2[m]}'
 
             origin_data = glob.glob(origin_dir+f"/{change_file_names[k]}*")
             buffer = []
