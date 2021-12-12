@@ -1,0 +1,19 @@
+train: D:\github\ObjectDetection_Flutter\datasets/train/images
+val: D:\github\ObjectDetection_Flutter\datasets/valid/images
+
+nc: 13
+names: [
+  'CheerUp',
+  'Stop', 
+  'ThisMore', 
+  'OneMore', 
+  'Ok', 
+  'This', 
+  'No', 
+  'Promise', 
+  'Victory', 
+  'Little', 
+  'GoodLuck', 
+  'Call', 
+  'You'
+  ]
