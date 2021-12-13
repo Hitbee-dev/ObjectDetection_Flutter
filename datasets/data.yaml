@@ -1,10 +1,10 @@
 names:
 - CheerUp
 - Stop
-- ThisMore
+- This
 - OneMore
 - Ok
-- This
+- ThisMore
 - 'No'
 - Promise
 - Victory
@@ -14,4 +14,4 @@ names:
 - You
 nc: 13
 train: C:/Users/HNU/Documents/github/ObjectDetection_Flutter/datasets/train.txt
-valid: C:/Users/HNU/Documents/github/ObjectDetection_Flutter/datasets/valid.txt
+val: C:/Users/HNU/Documents/github/ObjectDetection_Flutter/datasets/val.txt

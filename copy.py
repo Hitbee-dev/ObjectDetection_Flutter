@@ -2,15 +2,15 @@ import shutil
 import glob
 import os
 
-folder_names1 = ["train", "valid"]
+folder_names1 = ["train", "val"]
 folder_names2 = ["images", "labels"]
 change_file_names = [
     "A", "S",
     "B", 
-    "C", 
+    "G", 
     "D", 
     "F", "O", 
-    "G", 
+    "C", 
     "H", "U", 
     "I", "J", 
     "K", "V", 
@@ -21,10 +21,10 @@ change_file_names = [
 changed_file_names = [
     "CheerUp", "CheerUp",
     "Stop", 
-    "ThisMore", 
+    "This", 
     "OneMore",
     "Ok", "Ok", 
-    "This", 
+    "ThisMore",
     "No", "No", 
     "Promise", "Promise", 
     "Victory", "Victory", 
@@ -50,4 +50,4 @@ for n in range(len(folder_names1)):
                 _, ext = os.path.splitext(path)
                 shutil.copy2(f"{_}{ext}", copy_dir+f"/{changed_file_names[k]}{cnt+i}{splited}"+buffer[i])
             cnt += len(origin_data)
-        cnt = 0
+            cnt = 0
