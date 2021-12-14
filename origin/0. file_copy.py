@@ -2,36 +2,10 @@ import shutil
 import glob
 import os
 
-folder_names1 = ["train", "val"]
+folder_names1 = ["test", "train", "val"]
 folder_names2 = ["images", "labels"]
-change_file_names = [
-    "A", "S",
-    "B", 
-    "G", 
-    "D", 
-    "F", "O", 
-    "C", 
-    "H", "U", 
-    "I", "J", 
-    "K", "V", 
-    "Q", 
-    "R", 
-    "Y", 
-    "Z"]
-changed_file_names = [
-    "CheerUp", "CheerUp",
-    "Stop", 
-    "This", 
-    "OneMore",
-    "Ok", "Ok", 
-    "ThisMore",
-    "No", "No", 
-    "Promise", "Promise", 
-    "Victory", "Victory", 
-    "Little", 
-    "GoodLuck", 
-    "Call", 
-    "You"]
+change_file_names = ["A", "S","B", "G", "D", "F", "O", "C", "H", "U", "I", "J", "K", "V", "Q", "R", "Y", "Z"]
+changed_file_names = ["CheerUp", "CheerUp","Stop", "This", "OneMore","Ok", "Ok", "ThisMore","No", "No", "Promise", "Promise", "Victory", "Victory", "Little", "GoodLuck", "Call", "You"]
 cnt = 0
 for n in range(len(folder_names1)):
     for m in range(len(folder_names2)):
